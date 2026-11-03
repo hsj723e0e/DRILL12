@@ -6,6 +6,8 @@ world = [ [], [] ]
 # 게임 월드에 객체를 담는 함수
 def add_object(o, depth = 0):
     world[depth].append(o)
+    if(depth ==0):
+        pass
 
 def remove_object(o):
     for layer in world:

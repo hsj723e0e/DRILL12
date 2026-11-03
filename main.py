@@ -32,7 +32,7 @@ def reset_world():
     boy = Boy()
     game_world.add_object(boy, 1)
 
-    grass = Grass()
+    grass = Grass().draw
     game_world.add_object(grass,0) # 게임 월드에 객체를 담는 함수 호출
     grass = Grass()
     game_world.add_object(grass,1) # 게임 월드에 객체를 담는 함수 호출
